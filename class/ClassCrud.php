@@ -21,6 +21,11 @@ class ClassCrud extends ClassConexao{
     private function CountParametros($Parametros){
         $this->Contador=count($Parametros);
     }
+    #insert into data base
+    public function insertBD($Tabela,$Condicao,$Parametros){
+        $this->PreparedStatements("INSER INTO{$Tabela} VALUES({$Condicao})",$Parametros);
+        return $this->Crud;
+    }
 }
 
 ?>
