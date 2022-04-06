@@ -2,4 +2,4 @@
 .banner{float: left; width: 100%;}
     .banner img{width: 100%; vertical-align: middle;}
     
-.nav{float: left; width: 100%; background: #000;}
+.nav{float: left; width: 100%; background: #000; height: 100%;}
